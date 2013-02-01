@@ -35,6 +35,7 @@ if (function_exists('spl_autoload_register')) {
 		'DataSift_Push_LogEntry',
 		'DataSift_Push_Subscription',
 		'DataSift_StreamConsumer_HTTP',
+		'DataSift_StreamConsumer_MAU',
 		'DataSift_ApiClient',
 		'DataSift_Definition',
 		'DataSift_Historic',

@@ -173,7 +173,7 @@ class DataSift_StreamConsumer_HTTP extends DataSift_StreamConsumer
 	 *
 	 * @return void
 	 */
-	private function connect()
+	protected function connect()
 	{
 		$this->_state = parent::STATE_STARTING;
 
